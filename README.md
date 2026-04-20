@@ -40,6 +40,7 @@ Bu proje, bir **Bilgisayar Mühendisliği — Yazılım Mühendisliği dersi** k
 - [🗄 Veritabanı Şeması](#-veritabanı-şeması)
 - [🔒 Güvenlik](#-güvenlik)
 - [🗺 Yol Haritası](#-yol-haritası)
+- [👥 Takım](#-takım)
 - [📜 Lisans](#-lisans)
 
 ---
@@ -295,6 +296,39 @@ Gelecek sürümler için düşünülen özellikler:
 
 ---
 
+## 👥 Takım
+
+Bu proje aşağıdaki geliştiriciler tarafından **ortak** olarak hazırlanmıştır:
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/Tahacan3636">
+        <img src="https://github.com/Tahacan3636.png" width="100" style="border-radius: 50%" alt="Muhammed Taha Can" />
+      </a>
+      <br>
+      <strong>Muhammed Taha Can</strong>
+      <br>
+      <sub>Full-Stack Geliştirici</sub>
+      <br>
+      <a href="https://github.com/Tahacan3636">@Tahacan3636</a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/laraaicdemir">
+        <img src="https://github.com/laraaicdemir.png" width="100" style="border-radius: 50%" alt="Lara İçdemir" />
+      </a>
+      <br>
+      <strong>Lara İçdemir</strong>
+      <br>
+      <sub>Full-Stack Geliştirici</sub>
+      <br>
+      <a href="https://github.com/laraaicdemir">@laraaicdemir</a>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📜 Lisans
 
 Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
@@ -307,6 +341,6 @@ Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 
 **Bilgisayar Mühendisliği** — *Yazılım Mühendisliği* dersi için geliştirildi.
 
-Yapımcı: [@Tahacan3636](https://github.com/Tahacan3636)
+Geliştiriciler: [@Tahacan3636](https://github.com/Tahacan3636) · [@laraaicdemir](https://github.com/laraaicdemir)
 
 </div>
