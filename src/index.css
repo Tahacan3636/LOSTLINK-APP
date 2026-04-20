@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body {
+  @apply bg-slate-50 text-ink-900 font-sans antialiased;
+  background-image:
+    radial-gradient(circle at 10% 0%, rgba(21,146,240,0.10), transparent 40%),
+    radial-gradient(circle at 90% 10%, rgba(110,196,255,0.12), transparent 45%);
+}
+
+/* Leaflet haritasının düzgün görünmesi için min yükseklik ve yuvarlak köşe */
+.leaflet-container { height: 100%; width: 100%; border-radius: 14px; }
+
+/* ------- LOGO BİLEŞENİ ------- */
+/* Navbar ve footer'da paylaşılan marka yazısı: Lost (lacivert) + Link (gradient). */
+.lost-word { @apply text-ink-900 font-extrabold tracking-tight; }
+.link-word {
+  @apply font-extrabold tracking-tight bg-clip-text text-transparent;
+  background-image: linear-gradient(135deg, #1592f0 0%, #38abff 50%, #6ec4ff 100%);
+}
+
+/* ------- BUTONLAR ------- */
+.btn         { @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl font-semibold transition-all; }
+.btn-primary { @apply btn text-white shadow-md hover:shadow-glow;
+               background-image: linear-gradient(135deg, #1592f0 0%, #38abff 100%); }
+.btn-primary:hover { background-image: linear-gradient(135deg, #0a78d1 0%, #1592f0 100%); }
+.btn-primary:disabled { @apply opacity-60 shadow-none; }
+.btn-ghost   { @apply btn text-ink-700 hover:bg-brand-50; }
+.btn-dark    { @apply btn bg-ink-900 text-white hover:bg-ink-800; }
+.btn-danger  { @apply btn bg-red-600 text-white hover:bg-red-700; }
+
+/* ------- FORM ------- */
+.input  { @apply w-full px-3 py-2.5 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-brand-400 focus:border-transparent; }
+.label  { @apply block text-sm font-semibold text-ink-800 mb-1.5; }
+.card   { @apply bg-white rounded-2xl shadow-sm border border-slate-200 p-5; }
+
+/* ------- ROZETLER ------- */
+.badge        { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wide; }
+.badge-lost   { @apply badge bg-red-100 text-red-700; }
+.badge-found  { @apply badge bg-emerald-100 text-emerald-700; }
+.badge-cat    { @apply badge bg-brand-50 text-brand-700; }
+
+/* ------- ÖZEL HERO ORBIT ------- */
+/* Logo'daki yörünge halkasına atıf — hero arka planında dönen ellips. */
+.orbit-ring {
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(21,146,240,0.25);
+  border-radius: 50%;
+  transform: rotate(-15deg);
+  pointer-events: none;
+}
